@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="styles/index.css">
+  <script src="./index.js"></script>
   <title>Password Generator</title>
 </head>
 <body>
@@ -15,11 +16,13 @@
 
     <form action="">
       <!--Add HTML here-->
+      <input type="password" id="password" autocomplete="off">
+      <input type="submit" id="submit">
     </form>
 
 
     <!--A generated password should appear within <output> when the form is submitted -->
-    <output id="result" />
+    <output id="result" ></output>
 
 
   </div>
